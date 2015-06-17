@@ -12,5 +12,6 @@ class BgscraperItem(scrapy.Item):
 
     naam = scrapy.Field()
     adres = scrapy.Field()
+    postcode = scrapy.Field()
     gemeente = scrapy.Field()
 
