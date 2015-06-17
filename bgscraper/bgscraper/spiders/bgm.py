@@ -10,7 +10,7 @@ class BgmSpider(scrapy.Spider):
         'http://www.menen.be/bedrijvengids?latitude=50.8013179&longitude=3.1185616&waar=Wahisstraat&nummer=&afstand=10000&form=proximity&order=title',
     ]
 
-    for page in range(1, 145, 1):
+    for page in range(1, 146, 1):
         start_urls.append(
             'http://www.menen.be/bedrijvengids?page=%s&latitude=50.8013179&longitude=3.1185616&waar=Wahisstraat&nummer=&afstand=10000&form=proximity&order=title' % page)
 

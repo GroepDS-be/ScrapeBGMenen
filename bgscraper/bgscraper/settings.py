@@ -18,3 +18,7 @@ USER_AGENT = 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/525.13 (KHTML, like Geck
 
 AUTOTHROTTLE_ENABLED = True
 AUTOTHROTTLE_DEBUG = True
+
+ITEM_PIPELINES = {
+    'bgscraper.pipelines.BgscraperPipeline': 300,
+}

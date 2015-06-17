@@ -81,3 +81,5 @@ docs/_build/
 target/
 
 
+
+bgscraper/*.csv
