@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
-
-# Scrapy settings for bgscraper project
 #
-# For simplicity, this file contains only the most important settings by
-# default. All the other settings are documented here:
-#
-#     http://doc.scrapy.org/en/latest/topics/settings.html
+# This file is part of https://github.com/AvidSoftware-be/ScrapeBGMenen, licensed under GNU Affero GPLv3 or later.
 #
 
 BOT_NAME = 'bgscraper'

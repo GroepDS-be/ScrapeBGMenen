@@ -24,3 +24,6 @@ Run the script:
 
     cd bgscraper
     scrapy crawl bgm -o adressen.csv
+    
+License:
+GNU Affero GPLv3 or later.
