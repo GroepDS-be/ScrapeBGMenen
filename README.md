@@ -33,4 +33,4 @@ Run the script:
     scrapy crawl bgm -o adressen.csv
     
 License:
-GNU Affero GPLv3 or later.
+MIT License
